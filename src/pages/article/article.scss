@@ -1,0 +1,126 @@
+.article {
+  background: #ffffff;
+  width: 941px;
+  min-height: 800px;
+  margin: 0 auto;
+  box-shadow: 
+  0px 22px 106px rgba(0, 0, 0, 0.07), 
+  0px 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198), 
+  0px 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275), 
+  0px 2.75474px 13.2728px rgba(0, 0, 0, 0.035), 
+  0px 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725), 
+  0px 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+  border-radius: 5px;
+
+  &-body {
+    padding: 15px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+
+    overflow-wrap: anywhere;
+  }
+}
+
+.article-body {
+  body {
+    background-color: #FFF;
+    color: #333;
+    font: 15px Helvetica, arial, freesans, clean, sans-serif;
+    word-wrap: break-word;
+    line-height: 1.7;
+    padding: 0 20px 20px 20px;
+    width: 722px;
+    -webkit-font-smoothing: antialiased;
+    }
+  
+  a {
+    color: #4183c4;
+    text-decoration: none;
+    }
+  
+  a:hover {
+    text-decoration: underline;
+    }
+  
+  p, blockquote, ul, ol, dl, table, pre {
+    margin: 15px 0;
+    }
+  
+  ul, ol {
+    padding-left: 30px;
+    }
+  
+  h1 {
+    border-bottom: 1px solid #ddd;
+    color: #000;
+    font-size: 2.5em;
+    }
+  
+  h2 {
+    border-bottom: 1px solid #eee;
+    color: #000;
+    font-size: 2.0em;
+    }
+  
+  h3 {
+    font-size: 1.5em;
+    }
+  
+  h4 {
+    font-size: 1.2em;
+    }
+  
+  h5 {
+    font-size: 1.0em;
+    }
+  
+  h6 {
+    color: #777;
+    font-size: 1.0em;
+    }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.7;
+    }
+  
+    
+  img {
+    max-width: 100%;
+    }
+  
+  code,
+  pre {
+    background-color: #F8F8F8;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-size: 12px;
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: pre;
+    }
+  
+  pre code {
+    border: none;
+    margin: 0;
+    padding: 0;
+    white-space: pre;
+  }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+}

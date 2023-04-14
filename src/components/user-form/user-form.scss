@@ -1,0 +1,55 @@
+.form {
+  width: 384px;
+  min-height: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 23px;
+  font-family: Roboto;
+  padding: 48px 32px;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  box-shadow: 0px 22px 106px rgba(0, 0, 0, 0.07), 
+              0px 9.19107px 44.2843px rgba(0, 0, 0, 0.0503198), 
+              0px 4.91399px 23.6765px rgba(0, 0, 0, 0.0417275), 
+              0px 2.75474px 13.2728px rgba(0, 0, 0, 0.035), 
+              0px 1.46302px 7.04911px rgba(0, 0, 0, 0.0282725), 
+              0px 0.608796px 2.93329px rgba(0, 0, 0, 0.0196802);
+
+  .submit-button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #1890FF;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+    &:hover {
+      opacity: .9;
+      cursor: pointer;
+    }
+  }
+
+  .already-have {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: #8C8C8C;
+
+    & a {
+      color: #1890FF;
+      text-decoration: none;
+    }
+  }
+
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 21px;
+  }
+}

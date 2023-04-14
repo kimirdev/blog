@@ -1,0 +1,25 @@
+form.sign-up-form {
+  .agreeToTerms {
+    height: 53px;
+    border-top: 1px #E8E8E8 solid;
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    
+    label {
+      display: flex;
+      input {
+        margin-top: 3px;
+        width: 16px;
+        height: 16px;
+      }
+
+      .agree-label {
+        width: 254px;
+        display: block;
+        margin-left: 8px;
+      }
+    }
+  }
+}

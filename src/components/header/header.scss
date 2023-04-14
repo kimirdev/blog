@@ -1,0 +1,124 @@
+
+.header {
+  background: white;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+
+  &__panel {
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+  }
+
+  &__btn {
+    border: none;
+    background-color: white;
+    width: 109px;
+    height: 51px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+  }
+  
+  &__btn:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+  &__sign-in {
+    margin-right: 5px;
+    color: #000000D9;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      background-color: #000000BF;
+      color: white;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  &__sign-up {
+    color: #52C41A;
+    border: 1px solid #52C41A;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #52C41A;
+      color: white;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  &__create-article {
+    text-decoration: none;
+    color: #52C41A;
+    border: 1px solid #52C41A;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 6px 10px;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      color: white;
+      background-color: #52C41A;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  &__username {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000D9;
+    margin-left: 27px;
+    text-decoration: none;
+  }
+
+  &__avatar {
+    margin-left: 13px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+  }
+
+  &__logout {
+    color: #000000BF;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid #000000BF;
+    margin-left: 27px;
+    transition: all 0.15s ease-in-out;
+    
+    &:hover {
+      cursor: pointer;
+      background-color: #000000BF;
+      color: white;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+
+  &__title {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000D9;
+    line-height: 28px;
+    font-weight: 400;
+    margin-left: 22px;
+  }
+}

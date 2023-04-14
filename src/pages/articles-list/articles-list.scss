@@ -1,0 +1,21 @@
+.list {
+  list-style: none;
+  width: 941px;
+  margin: 0 auto;
+
+  padding: 0;
+  &__card {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 26px;
+  }
+
+  &__card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

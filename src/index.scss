@@ -1,0 +1,12 @@
+@import 'fonts';
+
+html {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+*, *:before, *:after {
+  /* font-family: Copperplate, Georgia; */
+  box-sizing: inherit;
+  margin: 0;
+}
